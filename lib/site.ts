@@ -9,7 +9,7 @@
  */
 
 export const SITE_URL =
-  process.env.NEXT_PUBLIC_SITE_URL ?? "https://eta-kappa-alphas.vercel.app";
+  process.env.NEXT_PUBLIC_SITE_URL ?? "https://hkalphas.com";
 
 export const SITE_NAME = "Eta Kappa Chapter | Alpha Phi Alpha";
 export const SITE_TAGLINE =
