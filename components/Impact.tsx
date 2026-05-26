@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import { ArrowUpRight } from "lucide-react";
 import Reveal from "./Reveal";
 
 /**
@@ -88,6 +89,50 @@ export default function Impact() {
             </Reveal>
           ))}
         </div>
+
+        {/* Voter engagement CTAs */}
+        <Reveal delay={0.2}>
+          <div className="mt-20 sm:mt-24 lg:mt-28 border-t border-white/10 pt-14 sm:pt-16">
+            <div className="flex flex-col items-center text-center">
+              <div className="flex items-center gap-4">
+                <span className="h-px w-8 bg-gold" />
+                <span className="eyebrow">Make Your Voice Count</span>
+                <span className="h-px w-8 bg-gold" />
+              </div>
+              <p className="mt-6 max-w-xl font-body text-[15px] leading-relaxed text-bone/70">
+                A voteless people is a hopeless people. Whether you&rsquo;re a
+                first-time voter or returning to the ballot, the State of
+                Louisiana makes it simple.
+              </p>
+              <div className="mt-10 flex flex-col sm:flex-row items-center gap-4">
+                <a
+                  href="https://www.sos.la.gov/ElectionsAndVoting/Pages/OnlineVoterRegistration.aspx"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="group btn-gold"
+                >
+                  <span>Register To Vote</span>
+                  <ArrowUpRight
+                    className="h-4 w-4 transition-transform duration-500 ease-cinematic group-hover:-translate-y-0.5 group-hover:translate-x-0.5"
+                    strokeWidth={1.5}
+                  />
+                </a>
+                <a
+                  href="https://voterportal.sos.la.gov/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="group btn-ghost"
+                >
+                  <span>Check Registration</span>
+                  <ArrowUpRight
+                    className="h-4 w-4 transition-transform duration-500 ease-cinematic group-hover:-translate-y-0.5 group-hover:translate-x-0.5"
+                    strokeWidth={1.5}
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </Reveal>
       </div>
     </section>
   );
