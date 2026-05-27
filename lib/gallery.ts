@@ -80,13 +80,13 @@ export const galleryItems: GalleryItem[] = [
   {
     src: "/images/gallery/winarmy.jpg",
     alt: "Chapter moment",
-    caption: "The Win Army",
+    caption: "Service Above Self",
     span: "wide",
   },
   {
     src: "/images/gallery/voters.jpeg",
     alt: "Voter engagement",
-    caption: "Voter Engagement",
+    caption: "Voter's Registration",
     span: "auto",
   },
   {
@@ -104,13 +104,13 @@ export const galleryItems: GalleryItem[] = [
   {
     src: "/images/gallery/servicefour.jpeg",
     alt: "Community service",
-    caption: "Community Service",
+    caption: "Food Bank",
     span: "wide",
   },
   {
     src: "/images/gallery/school.jpeg",
     alt: "Go-To-High-School, Go-To-College",
-    caption: "Go-To-High-School",
+    caption: "Youth Outreach",
     span: "auto",
   },
   {
@@ -133,32 +133,32 @@ export const galleryItems: GalleryItem[] = [
   },
   {
     src: "/images/gallery/IMG_0040.jpeg",
-    alt: "Chapter moment",
-    caption: "Chapter Moment",
+    alt: "Man of the Year",
+    caption: "Man of the Year",
     span: "auto",
   },
   {
     src: "/images/gallery/IMG_0033.jpeg",
-    alt: "Chapter moment",
-    caption: "Chapter Moment",
+    alt: "Manly Deeds",
+    caption: "Manly Deeds",
     span: "tall",
   },
   {
     src: "/images/gallery/IMG_0031.jpeg",
-    alt: "Chapter moment",
-    caption: "Chapter Moment",
+    alt: "Lead The Way",
+    caption: "Lead The Way",
     span: "auto",
   },
   {
     src: "/images/gallery/IMG_0029.jpeg",
-    alt: "Chapter moment",
-    caption: "Chapter Moment",
+    alt: "Excellence",
+    caption: "Excellence",
     span: "wide",
   },
   {
     src: "/images/gallery/IMG_0024.jpeg",
-    alt: "Chapter moment",
-    caption: "Chapter Moment",
+    alt: "Blood Drive",
+    caption: "Blood Drive",
     span: "auto",
   },
   {
