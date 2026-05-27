@@ -78,8 +78,8 @@ export const galleryItems: GalleryItem[] = [
     span: "auto",
   },
   {
-    src: "/images/gallery/winarmy.jpg",
-    alt: "Chapter moment",
+    src: "/images/gallery/winwatch.jpeg",
+    alt: "Service above self",
     caption: "Service Above Self",
     span: "wide",
   },
